@@ -48,7 +48,6 @@ def _betaRangeWarn(beta, beta_range):
         beta_range (array-like): min and max beta of range, in that order 
     """
     global CHECKBETARANGE
-    print(beta)
     if  isinstance(beta , (float,np.floating)) :
         beta    = np.array([ beta , beta ]) 
     if CHECKBETARANGE:
